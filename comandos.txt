@@ -1,0 +1,294 @@
+#Resumen comandos utilizados
+
+$ history
+    1  git init
+    2  git commit -m "first commit"
+    3  git remote add origin https://github.com/danisteb90/profilecard.github.io.git
+    4  git commit -m "first commit"
+    5  git status
+    6  git remote add origin https://github.com/danisteb90/profilecard.github.io.git
+    7  git push -u origin main
+    8  git init
+    9  git remote add origin https://github.com/danisteb90/profilecard1.github.io.git
+   10  git push origin --delete main
+   11  git push origin --delete
+   12  git push origin --delete main
+   13  git remote add origin https://github.com/danisteb90/profilecard1.github.io.git
+   14  git remote remove origin
+   15  git remote add origin https://github.com/danisteb90/profilecard1.github.io.git
+   16  git status
+   17  git add *
+   18  git status
+   19  git push -u origin main
+   20  git init
+   21  git branch -M main
+   22  git commit -m "first commit"
+   23  git remote add origin https://github.com/danisteb90/pricegrid.github.io.git
+   24  git status
+   25  git add *
+   26  git status
+   27  git commit -m "first commit"
+   28  git push -u origin main
+   29  git init
+   30  git branch -M main
+   31  git status
+   32
+   33  git remote add origin https://github.com/danisteb90/profilecard.github.io.git
+   34  git status
+   35  git add *
+   36  git status
+   37  git add .gitignore
+   38  git status
+   39  git push -u origin main
+   40  git commit -m "first commit"
+   41  git config --global user.email "esteban.alban9003@gmail.com"
+   42  git config --global user.name "Esteban Alban"
+   43  git commit -m "first commit"
+   44  git status
+   45  git push -u origin main
+   46  git init
+   47  git remove remote origin
+   48  git --help
+   49  git rm origin
+   50  $ git
+   51  git status
+   52  git rm .gitignore
+   53  git status
+   54  git remote add origin https://github.com/danisteb90/profilecard.github.io.git
+   55  git status
+   56  git --help
+   57  git commit -m "first commit"
+   58  git status
+   59  git push -u origin main
+   60  git init
+   61  git branch -M main
+   62  git remote add origin https://github.com/danisteb90/huddlelanding.github.io.git
+   63  git status
+   64  git add *
+   65  git status
+   66  git commit -m "first commit"
+   67  git push -u origin main
+   68  ls
+   69  cd E
+   70  cd E: 1_Programing
+   71  cd..
+   72  cd ..
+   73  cd ..
+   74  cd ..
+   75  e
+   76  cd e
+   77  list
+   78  ls
+   79  cd 1_Programing
+   80  ls
+   81  ls
+   82  cd 10_DigitalHouse
+   83  mkdir Informes
+   84  ls
+   85  cd Informes
+   86  touch informeAnual.xls
+   87  ls
+   88  mkdir auditoria
+   89  touch auditoria.xls
+   90  touch reporteConsolidado.xls
+   91  ls
+   92  mv auditoria.xls auditoria
+   93  ls
+   94  cd auditoria
+   95  ls
+   96  mkdir git_excercise
+   97  cd git_excercise
+   98  git init
+   99  git status
+  100  git status
+  101  git add app.js
+  102  git status
+  103  git init
+  104  git ls -a
+  105  ls -a
+  106  git status
+  107  git add .
+  108  git status
+  109  pwd
+  110  cd /esteb/
+  111  cd /Users
+  112  cd /c/Users/esteb/
+  113  pwd
+  114  cd esteb
+  115  cd Users/
+  116  cd c/
+  117  cd /c/
+  118  cd /Users
+  119  cdUsers/
+  120  cd Users/
+  121  ls
+  122  ls -l
+  123  ls -lh
+  124  ls -a
+  125  cd /c/
+  126  ls -a
+  127  cd..
+  128  cd..
+  129  c..
+  130  cd ..
+  131  cd ..
+  132  ls
+  133  ls
+  134  ls -l
+  135  ls -a
+  136  ls
+  137  ls
+  138  cd /dh/
+  139  cd esteb/dh
+  140  ls
+  141  ls
+  142  cd dh/
+  143  mkdir dir1
+  144  mkdir "nueva carpeta"
+  145  mkdir prueba de "comillas"
+  146  touch archivo 1 archivo.pdf archivo.txt archivo.jpg
+  147  rm 1
+  148  rm "nueva carpeta"
+  149  rm -r "nueva carpeta"
+  150  rm -r *
+  151  mkdir -p padre/hijo
+  152  touch test
+  153  rm test
+  154  cd padre
+  155  mkdir hijo2
+  156  rm -r hijo
+  157  mkdir hijo1
+  158  cd hijo2
+  159  touch nieto2
+  160  mv nieto2 nieto1
+  161  mv nieto1 /c/esteb/OneDrive/Escritorio/dh/padre/hijo1
+  162  pwd
+  163  mv nieto1 /c/Users/esteb/OneDrive/Escritorio/dh/padre/hijo1
+  164  mv ../hijo1/nieto1 .
+  165  mkdir Peliculas
+  166  cd Peliculas
+  167  mkdir Infantiles Accion Terror Comedia Romanticas
+  168  cd ..
+  169  rm -r padre
+  170  cd Peliculas
+  171  cd Infantiles
+  172  touch Intensamente.txt "El juego del miedo.xls" "Rapido y Furiosos.pdf" Titanic.jpg
+  173  cd ..
+  174  cd Terror
+  175  touch "La dama y el bagavundo.png" "Yo antes de ti.xls" "Que paso ayer.xls" "We will rock you.js"
+  176  cd ..
+  177  cd Comedia
+  178  touch Madagaskar.js "Orgullo y prejuicio.txt" IT.xls "Mision imposible.png"
+  179  cd..
+  180  cd ..
+  181  cd Romantica
+  182  cd Romanticas
+  183  touch Pocahontas.jpg Anabelle.js "Los vengadores.js" "La mascara.js"
+  184  cd ..
+  185  cd Accion
+  186  touch "Smooth criminal.txt" "Diario de una pasion.js" "El hexorcista.xls" Cars.jpg
+  187  cd ..
+  188  ls -R
+  189  mkdir -p ROmanticas/Prueba
+  190  cd Romanticas
+  191  mkdir -p ../Accion/Prueba2
+  192  cd ..
+  193  cd ..
+  194  mkdir -r Peliculas/Romanticas/Prueba
+  195  mkdir -p Peliculas/Romanticas/Prueba
+  196  mkdir mercadoAbierto
+  197  cd mercadoAbierto
+  198  git init
+  199  touch productos.js
+  200  git status
+  201  git add productos.js
+  202  git commit -m "mi primer commit"
+  203  git status
+  204  git config user.name "danisteb90"
+  205  git config user.email "esteban.alban9003@gmail.com"
+  206  git remote add origin https://github.com/danisteb90/ejercicios-github-DH.git
+  207  git remote add origin https://github.com/danisteb90/ejercicios-github-DH.git
+  208  git remote add origin https://github.com/danisteb90/ejercicios-github-DH.git
+  209  git remote -v
+  210  clear
+  211  git status
+  212  git push origin master
+  213  git clone https://github.com/danisteb90/ejercicios-github-DH.git
+  214  cd ejercicios-github-DH
+  215  touch app.js
+  216  git status
+  217  git add app.js
+  218  git status
+  219  git commit -m "mi primer commit"
+  220  git status
+  221  git pull origin master
+  222  git push
+  223  clear
+  224  git --version
+  225  mkdir "Ejercicio Clase3"
+  226  cd "Ejercicio Clase3"
+  227  mkdir Ecommerce
+  228  cd Ecommerce
+  229  touch app.js
+  230  touch config.js
+  231  mkdir db
+  232  git init
+  233  git add .
+  234  git commit -m "Primer Commit"
+  235  cd db
+  236  touch producto_db.js carrito_db.js
+  237  cd ..
+  238  git commit -m "Guardando lo importante"
+  239  git add .
+  240  git status
+  241  git commit -m "Guardando una parte del proyecto"
+  242  git status
+  243  cd db
+  244  rm producto_db.js
+  245  git restore .
+  246  rm ../config.js
+  247  git add .
+  248  git status
+  249  git commit -m "Sacando la configuracion"
+  250  git status
+  251  git branch 'M main
+  252  ancel
+  253  clear
+  254  git branch -M main
+  255  git branch
+  256  cd..
+  257  cd ..
+  258  mkdir Clase_7
+  259  cd Clase_7
+  260  . code
+  261  mkdir test-08-2023-EstebanAlban
+  262  cd test-08-2023-EstebanAlban
+  263  git init
+  264  touch main.js index.html
+  265  ls
+  266  git status
+  267  git add .
+  268  git commit -m "commit 01 de EstebanAlban"
+  269  git branch -M main
+  270  git remote add origin https://github.com/danisteb90/test-08-2023-EstebanAlban.git
+  271  git push -u origin main
+  272  git branch feature
+  273  git branch
+  274  git checkout feature
+  275  mkdir Hardware Software SeguridadInformatica
+  276  touch Hardware/resumen.txt
+  277  touch Software/resumen.txt
+  278  touch SeguridadInformatica/resumen.txt
+  279  git status
+  280  git add .
+  281  git commit -m "commit 02 de EstebanAlban"
+  282  git push -u origin feature
+  283  git checkout main
+  284  mv main.js resumenHardware.txt
+  285  ls
+  286  mv index.html resumenSoftware.txt
+  287  cd resumenSoftware.txt
+  288  code .
+  289  touch comandos.txt
+  290  ls
+  291  history
